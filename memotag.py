@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request
 import statistics
 import math
-
+import os
 app = Flask(__name__)
 
 # Complex trend analysis function
